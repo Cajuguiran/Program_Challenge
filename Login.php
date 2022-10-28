@@ -25,14 +25,18 @@
 				$users = array(
 					array(
 						'type' => 'Admin',
-						'username' => 'admin',
-						'password' => 'Admin1234',
+						'username' => 'root',
+						'password' => 'admin1234',
 					),
                     
-
 					array(
 						'type' => 'Content Manager',
 						'username' => 'pepito',
+						'password' => 'manaloto',
+					),
+					array(
+						'type' => 'Content Manager',
+						'username' => 'elsa',
 						'password' => 'manaloto',
 					),
 
@@ -52,75 +56,73 @@
 					if ($type === $users[0]['type']) {
 						if ($name === $users[0]['username']) {
 							if ($pass === $users[0]['password']) {
-								echo 
-								'<div class="alert alert-success alert-dismissable mt-3" role="alert">
+							echo '<div class="alert alert-success alert-dismissable mt-3" role="alert">
 									Welcome to the System: '. $name .'
 								</div>';
 							}
 							else{
-								echo 
-								'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
+								
+							echo'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
 									Invalid Username / Password
 								</div>';
 							}
 							}									
 							else{
-							echo 
-							'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
-								Invalid Username / Password
-							</div>';
+							 
+							echo'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
+									Invalid Username / Password
+								</div>';
 							}
 					}
 					elseif ($type === $users[1]['type']) {
 						if ($name === $users[1]['username']) {
 							if ($pass === $users[1]['password']) {
-								echo 
-								'<div class="alert alert-success alert-dismissable mt-3" role="alert">
+							
+							echo'<div class="alert alert-success alert-dismissable mt-3" role="alert">
 									Welcome to the System: '. $name .'
 								</div>';
 							}
 							else{
-								echo 
-								'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
+								
+							echo'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
 									Invalid Username / Password
 								</div>';
 							}
 							}									
 							else{
-							echo 
-							'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
-								Invalid Username / Password
-							</div>';
+								
+							echo'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
+									Invalid Username / Password
+								</div>';
 							}
 					}
 					elseif ($type === $users[2]['type']) {
 						if ($name === $users[2]['username']) {
 							if ($pass === $users[2]['password']) {
-								echo 
-								'<div class="alert alert-success alert-dismissable mt-3" role="alert">
+								
+							echo'<div class="alert alert-success alert-dismissable mt-3" role="alert">
 									Welcome to the System: '. $name .'
 								</div>';
 							}
 							else{
-								echo 
-								'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
+								
+							echo'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
 									Invalid Username / Password
 								</div>';
 							}
 							}									
 							else{
-							echo 
-							'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
-								Invalid Username / Password
-							</div>';
+							
+							echo'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
+									Invalid Username / Password
+								</div>';
 							}
 					}								
-
-							else{
-							echo 
-							'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
-								Invalid Username / Password
-							</div>';
+					else{
+							
+							echo'<div class="alert alert-danger alert-dismissable mt-3" role="alert">
+									Invalid Username / Password
+								</div>';
 							}
 					}
 			?>
