@@ -35,12 +35,6 @@
 						'password' => 'manaloto',
 					),
 					array(
-						'type' => 'Content Manager',
-						'username' => 'elsa',
-						'password' => 'manaloto',
-					),
-
-					array(
 						'type' => 'System User',
 						'username' => 'pedro',
 						'password' => 'penduko',
